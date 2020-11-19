@@ -1,10 +1,8 @@
 .headers {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: sticky;
     top: 10px;
     background-color: white;
@@ -83,4 +81,9 @@
 .menu-icon {
     font-size: 30px;
     cursor: "pointer";
+}
+
+.margin-20{
+    margin-left: 20px;
+    margin-right: 20px;
 }
