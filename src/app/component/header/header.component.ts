@@ -14,12 +14,10 @@ export class HeaderComponent implements OnInit {
 
    openNav() {
     document.getElementById("nav").style.transform = "translateX(0)";
-    document.getElementById("nav").style.height = "auto";
   }
   
    closeNav() {
     document.getElementById("nav").style.transform = "translateX(-100%)";
-    document.getElementById("nav").style.height = "0";
   }
 
 }
